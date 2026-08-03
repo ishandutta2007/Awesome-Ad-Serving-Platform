@@ -8,15 +8,17 @@ Below is a **curated list** of notable platforms and their open-source equivalen
 
 ## 🏢 SaaS / Hosted Platforms
 
-- **[Google Ad Manager](https://admanager.google.com/)** — The dominant enterprise ad server (formerly DoubleClick for Publishers / DFP) for large publishers, with advanced targeting, yield management, and programmatic integration.
-- **[Kevel](https://www.kevel.com/)** — API-first ad serving platform designed for custom ad experiences, retail media, and developers building their own ad products.
-- **[AdButler](https://www.adbutler.com/)** — Flexible, configurable ad server popular with mid-market publishers and networks.
-- **[Broadstreet](https://broadstreetads.com/)** — Ad server focused on direct-sold inventory, local publishers, and client-friendly ad creation/reporting.
-- **[Epom](https://epom.com/)** — Full-featured ad server supporting multiple formats, targeting, and optimization.
-- **[AdGlare](https://www.adglare.com/)** — Lightweight, modern ad server with real-time tracking and multi-format support.
-- **[Equativ](https://equativ.com/)** (formerly Smart AdServer) — Established ad serving and monetization platform.
-- **[OpenX](https://www.openx.com/)** — Programmatic-focused platform (ad exchange / SSP heritage; original ad server evolved into Revive).
-- **Smart AdServer** — Legacy/enterprise ad serving solution (now under Equativ in many markets).
+| Platform | Description | Pricing | Free Tier Limit |
+|---|---|---|---|
+| **[Google Ad Manager](https://admanager.google.com/)** | The dominant enterprise ad server (formerly DoubleClick for Publishers / DFP) for large publishers, with advanced targeting, yield management, and programmatic integration. | Custom / CPM based after free tier | 90M-200M non-video impressions/month depending on region, 800K video impressions |
+| **[Kevel](https://www.kevel.com/)** | API-first ad serving platform designed for custom ad experiences, retail media, and developers building their own ad products. | Custom, based on features and API volume | None |
+| **[AdButler](https://www.adbutler.com/)** | Flexible, configurable ad server popular with mid-market publishers and networks. | Starts at ~$179/month | None |
+| **[Broadstreet](https://broadstreetads.com/)** | Ad server focused on direct-sold inventory, local publishers, and client-friendly ad creation/reporting. | Starts at $299/month | None |
+| **[Epom](https://epom.com/)** | Full-featured ad server supporting multiple formats, targeting, and optimization. | Starts at $250/month | None (14-day free trial) |
+| **[AdGlare](https://www.adglare.com/)** | Lightweight, modern ad server with real-time tracking and multi-format support. | Paid subscription | None (14-day free trial up to 10M requests) |
+| **[Equativ](https://equativ.com/)** | (formerly Smart AdServer) — Established ad serving and monetization platform. | Custom enterprise pricing | None |
+| **[OpenX](https://www.openx.com/)** | Programmatic-focused platform (ad exchange / SSP heritage; original ad server evolved into Revive). | Custom enterprise pricing | None |
+| **Smart AdServer** | Legacy/enterprise ad serving solution (now under Equativ in many markets). | Custom enterprise pricing | None |
 
 ## 🔓 Open-Source Software
 
