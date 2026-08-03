@@ -1,1 +1,52 @@
 # Awesome-Ad-Serving-Platform
+
+## Similar Projects to Ad Serving Platforms
+
+**Ad Serving Platforms** (Ad Servers) manage the delivery, targeting, tracking, and reporting of digital advertisements across websites, apps, and other digital properties. They handle campaign management, inventory allocation, real-time decisioning, and analytics for publishers, advertisers, and ad networks. Leading platforms include Google Ad Manager, Kevel, Revive Adserver, AdButler, Broadstreet, Epom, AdGlare, Equativ, OpenX, and Smart AdServer.
+
+Below is a **curated list** of notable platforms and their open-source equivalents. The open-source ad serving space is led by Revive Adserver, with newer modern alternatives emerging.
+
+## 🏢 SaaS / Hosted Platforms
+
+- **[Google Ad Manager](https://admanager.google.com/)** — The dominant enterprise ad server (formerly DoubleClick for Publishers / DFP) for large publishers, with advanced targeting, yield management, and programmatic integration.
+- **[Kevel](https://www.kevel.com/)** — API-first ad serving platform designed for custom ad experiences, retail media, and developers building their own ad products.
+- **[AdButler](https://www.adbutler.com/)** — Flexible, configurable ad server popular with mid-market publishers and networks.
+- **[Broadstreet](https://broadstreetads.com/)** — Ad server focused on direct-sold inventory, local publishers, and client-friendly ad creation/reporting.
+- **[Epom](https://epom.com/)** — Full-featured ad server supporting multiple formats, targeting, and optimization.
+- **[AdGlare](https://www.adglare.com/)** — Lightweight, modern ad server with real-time tracking and multi-format support.
+- **[Equativ](https://equativ.com/)** (formerly Smart AdServer) — Established ad serving and monetization platform.
+- **[OpenX](https://www.openx.com/)** — Programmatic-focused platform (ad exchange / SSP heritage; original ad server evolved into Revive).
+- **Smart AdServer** — Legacy/enterprise ad serving solution (now under Equativ in many markets).
+
+## 🔓 Open-Source Software
+
+### Full Open-Source Ad Servers
+- **[Revive Adserver](https://github.com/revive-adserver/revive-adserver)** — The world’s most popular free, open-source ad serving system (evolved from OpenX Source). Supports banner/HTML5/video ads, campaign management, targeting rules, detailed statistics, and multi-publisher/advertiser setups. Fully self-hosted under GPL. Also offers an optional Hosted edition.
+- **[OpenAdServer](https://github.com/seanZhang414/openadserver)** — Modern open-source ad serving platform built with Python, FastAPI, and PyTorch. Features ML-powered CTR prediction (DeepFM), real-time eCPM bidding, multiple ad formats, smart targeting, and Docker-based deployment. Positioned as a self-hosted alternative to Google Ad Manager with full data ownership.
+
+### Related Open-Source Ad Tech Tools
+- **[Prebid.js](https://github.com/prebid/Prebid.js)** + **[Prebid Server](https://github.com/prebid/prebid-server)** — Leading open-source header bidding framework and server-side auction solution. Widely used by publishers to run real-time auctions with multiple demand partners before (or alongside) an ad server.
+- Community and research projects for DSP/RTB components, simple banner rotators, and specialized ad delivery engines (e.g., older OIO Publisher-style scripts or experimental AI-native ad engines).
+
+### Supporting Building Blocks
+- Open-source analytics and tracking tools that can be paired with ad servers for advanced reporting.
+- Custom ad decisioning engines built on modern web frameworks when full ad-server features are not required.
+
+### Typical Open-Source Approach
+1. **Core ad server** — Revive Adserver (mature & battle-tested) or OpenAdServer (modern ML-focused)
+2. **Header bidding / yield** — Prebid.js + Prebid Server
+3. **Hosting & scaling** — Self-managed infrastructure (Docker/Kubernetes) or Revive’s hosted option
+4. **Reporting & optimization** — Built-in stats + custom dashboards or integration with open analytics tools
+
+These solutions give publishers and networks complete ownership of ad data, zero revenue share on self-hosted deployments, and full customization of targeting and delivery logic.
+
+---
+
+**How to contribute**  
+Fork this repository, add a new project (with link + short description + category), and open a pull request.  
+Prefer actively maintained open-source projects related to ad serving, ad servers, header bidding, or publisher monetization tools.
+
+**License**  
+This list is public domain / CC0. Feel free to copy into your own awesome list or README.
+
+Star the projects you find useful — open ad tech helps publishers keep control of their inventory and revenue! 📢
